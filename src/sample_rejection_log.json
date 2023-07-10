@@ -1,0 +1,29 @@
+{
+  "date": "Mon Jul 10 2023 20:26:03 GMT+0700 (Western Indonesia Time)",
+  "error": { "code": "ERR_UNHANDLED_REJECTION" },
+  "exception": true,
+  "level": "error",
+  "message": "uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"ups, something wrong\".\nUnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"ups, something wrong\".",
+  "os": { "loadavg": [0, 0, 0], "uptime": 473490 },
+  "process": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\syibran\\learn_logging\\src\\logger-rejection.js"
+    ],
+    "cwd": "D:\\syibran\\learn_logging",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "gid": null,
+    "memoryUsage": {
+      "arrayBuffers": 126161,
+      "external": 681615,
+      "heapTotal": 11620352,
+      "heapUsed": 8675504,
+      "rss": 37625856
+    },
+    "pid": 21712,
+    "uid": null,
+    "version": "v18.12.1"
+  },
+  "stack": "UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"ups, something wrong\".",
+  "trace": []
+}
